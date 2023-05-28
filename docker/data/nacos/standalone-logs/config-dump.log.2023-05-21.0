@@ -1,0 +1,60 @@
+2023-05-21 16:42:02,737 INFO [dump-all-ok] RegisterCenterFlowRule1+DEFAULT_GROUP, 1684586179140, length=330, md5=67ee908bf55cde0d881c6e479574544a
+
+2023-05-21 16:42:02,748 INFO [dump-all-ok] RegisterCenter-dev.yaml+DEFAULT_GROUP, 1684586179140, length=921, md5=fe51f2a3f8d4b615c792dfd512bfc624
+
+2023-05-21 16:42:02,750 INFO [dump-all-ok] GateWay-dev.yaml+DEFAULT_GROUP, 1684586179140, length=1429, md5=010537a557fb8a87819dd44f4f3fedea
+
+2023-05-21 16:42:02,751 INFO [dump-all-ok] GateWayFlowRule1+DEFAULT_GROUP, 1684586179140, length=177, md5=5e2a8faad72a1ef3c958bf9416740d2d
+
+2023-05-21 16:42:02,752 INFO [dump-all-ok] MessageCenter-dev.yaml+DEFAULT_GROUP, 1684586179140, length=917, md5=7e0290ae72d6658b5d63e650bd5168e1
+
+2023-05-21 16:42:02,754 INFO [dump-all-ok] MessageCenterFlowRule1+DEFAULT_GROUP, 1684586179140, length=174, md5=7a143ad4061ec6f22b754785e135e9dd
+
+2023-05-21 16:42:02,755 INFO [dump-all-ok] UploadCenter-dev.yaml+DEFAULT_GROUP, 1684586179140, length=658, md5=6a345b7fe52fc1d150a626a92c3aaa9e
+
+2023-05-21 16:42:02,757 INFO [dump-all-ok] UploadCenterFlowRule1+DEFAULT_GROUP, 1684586179140, length=174, md5=7a143ad4061ec6f22b754785e135e9dd
+
+2023-05-21 16:42:02,758 INFO [dump-all-ok] WeatherServer-dev.yaml+DEFAULT_GROUP, 1684586179140, length=576, md5=71d2b4aec5e3f3bd051262015f848b63
+
+2023-05-21 16:42:02,760 INFO [dump-all-ok] WeatherServerFlowRule1+DEFAULT_GROUP, 1684586179140, length=347, md5=9435f2ee1500c392ea62acae67a982e7
+
+2023-05-21 16:42:02,761 INFO [dump-all-ok] GPTServer-dev.yaml+DEFAULT_GROUP, 1684586179140, length=595, md5=cb6c31c58e01bd5b1e719dacf01a4b36
+
+2023-05-21 16:42:02,762 INFO [dump-all-ok] GPTServerFlowRule1+DEFAULT_GROUP, 1684586179140, length=347, md5=9435f2ee1500c392ea62acae67a982e7
+
+2023-05-21 16:44:28,064 INFO [dump-all-ok] RegisterCenterFlowRule1+DEFAULT_GROUP, 1684586179140, length=330, md5=67ee908bf55cde0d881c6e479574544a
+
+2023-05-21 16:44:28,066 INFO [dump-all-ok] RegisterCenter-dev.yaml+DEFAULT_GROUP, 1684586179140, length=921, md5=fe51f2a3f8d4b615c792dfd512bfc624
+
+2023-05-21 16:44:28,067 INFO [dump-all-ok] GateWay-dev.yaml+DEFAULT_GROUP, 1684586179140, length=1429, md5=010537a557fb8a87819dd44f4f3fedea
+
+2023-05-21 16:44:28,068 INFO [dump-all-ok] GateWayFlowRule1+DEFAULT_GROUP, 1684586179140, length=177, md5=5e2a8faad72a1ef3c958bf9416740d2d
+
+2023-05-21 16:44:28,070 INFO [dump-all-ok] MessageCenter-dev.yaml+DEFAULT_GROUP, 1684586179140, length=917, md5=7e0290ae72d6658b5d63e650bd5168e1
+
+2023-05-21 16:44:28,071 INFO [dump-all-ok] MessageCenterFlowRule1+DEFAULT_GROUP, 1684586179140, length=174, md5=7a143ad4061ec6f22b754785e135e9dd
+
+2023-05-21 16:44:28,072 INFO [dump-all-ok] UploadCenter-dev.yaml+DEFAULT_GROUP, 1684586179140, length=658, md5=6a345b7fe52fc1d150a626a92c3aaa9e
+
+2023-05-21 16:44:28,074 INFO [dump-all-ok] UploadCenterFlowRule1+DEFAULT_GROUP, 1684586179140, length=174, md5=7a143ad4061ec6f22b754785e135e9dd
+
+2023-05-21 16:44:28,075 INFO [dump-all-ok] WeatherServer-dev.yaml+DEFAULT_GROUP, 1684586179140, length=576, md5=71d2b4aec5e3f3bd051262015f848b63
+
+2023-05-21 16:44:28,077 INFO [dump-all-ok] WeatherServerFlowRule1+DEFAULT_GROUP, 1684586179140, length=347, md5=9435f2ee1500c392ea62acae67a982e7
+
+2023-05-21 16:44:28,078 INFO [dump-all-ok] GPTServer-dev.yaml+DEFAULT_GROUP, 1684586179140, length=595, md5=cb6c31c58e01bd5b1e719dacf01a4b36
+
+2023-05-21 16:44:28,079 INFO [dump-all-ok] GPTServerFlowRule1+DEFAULT_GROUP, 1684586179140, length=347, md5=9435f2ee1500c392ea62acae67a982e7
+
+2023-05-21 16:46:43,636 INFO [dump-task] add task. groupKey=GateWay-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=GateWay-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-21 17:32:40,539 INFO [dump-task] add task. groupKey=RegisterCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=RegisterCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-21 17:35:44,817 INFO [dump-task] add task. groupKey=MessageCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=MessageCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-21 17:37:16,997 INFO [dump-task] add task. groupKey=MessageCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=MessageCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-21 18:07:42,036 INFO [dump-task] add task. groupKey=UploadCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=UploadCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-21 18:08:30,147 INFO [dump-task] add task. groupKey=RegisterCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=RegisterCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+

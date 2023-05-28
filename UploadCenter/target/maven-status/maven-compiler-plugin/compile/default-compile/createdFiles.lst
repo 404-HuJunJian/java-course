@@ -1,0 +1,6 @@
+com\parsley\service\Imp\UploadServiceImp.class
+com\parsley\service\UploadService.class
+com\parsley\config\UploadProperties.class
+com\parsley\controller\UploadController.class
+com\parsley\UploadCenter.class
+META-INF\spring-configuration-metadata.json

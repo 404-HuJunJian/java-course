@@ -1,0 +1,30 @@
+2023-05-20 19:38:33,440 INFO [dump-all-ok] abc.yaml+DEFAULT_GROUP, 1684582554807, length=22, md5=14d36158e7e08a011032ef6b75547f62
+
+2023-05-20 20:33:13,242 INFO [dump-all-ok] abc.yaml+DEFAULT_GROUP, 1684582554807, length=22, md5=14d36158e7e08a011032ef6b75547f62
+
+2023-05-20 20:33:43,737 INFO [dump-task] add task. groupKey=abc.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=abc.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,210 INFO [dump-task] add task. groupKey=GateWayFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=GateWayFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,211 INFO [dump-task] add task. groupKey=GateWay-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=GateWay-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,210 INFO [dump-task] add task. groupKey=RegisterCenterFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=RegisterCenterFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,211 INFO [dump-task] add task. groupKey=MessageCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=MessageCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,211 INFO [dump-task] add task. groupKey=RegisterCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=RegisterCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,211 INFO [dump-task] add task. groupKey=UploadCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=UploadCenter-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,211 INFO [dump-task] add task. groupKey=MessageCenterFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=MessageCenterFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,212 INFO [dump-task] add task. groupKey=UploadCenterFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=UploadCenterFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,212 INFO [dump-task] add task. groupKey=WeatherServer-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=WeatherServer-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,213 INFO [dump-task] add task. groupKey=WeatherServerFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=WeatherServerFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,213 INFO [dump-task] add task. groupKey=GPTServer-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=GPTServer-dev.yaml+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+
+2023-05-20 20:36:19,213 INFO [dump-task] add task. groupKey=GPTServerFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec, taskKey=GPTServerFlowRule1+DEFAULT_GROUP+45c96965-c8f8-4c18-a721-7fee5be0dbec+false+null
+

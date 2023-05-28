@@ -1,0 +1,7 @@
+version: "2"
+services:
+  sentinel:
+    image: sentinel:latest
+    ports:
+      - "9900:9900"
+      - "8719:8719"

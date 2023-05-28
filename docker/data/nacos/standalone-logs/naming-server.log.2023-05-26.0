@@ -1,0 +1,208 @@
+2023-05-26 14:24:18,314 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-26 14:24:18,315 WARN Using naming.distro config to replace core.distro config
+
+2023-05-26 14:24:18,489 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-26 14:24:18,490 INFO listen for service meta change
+
+2023-05-26 14:24:20,445 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-05-26 14:24:20,445 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-05-26 14:24:20,445 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-05-26 14:24:20,445 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-05-26 14:24:21,256 INFO Load instance extension handler []
+
+2023-05-26 14:42:41,589 INFO Client connection 1685083361576_172.24.0.1_40534 connect
+
+2023-05-26 14:42:41,740 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=0}, 1685083361576_172.24.0.1_40534
+
+2023-05-26 14:43:04,047 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=1}, 1685083361576_172.24.0.1_40534
+
+2023-05-26 14:43:04,400 INFO Client connection 1685083361576_172.24.0.1_40534 disconnect, remove instances and subscribers
+
+2023-05-26 14:43:04,892 INFO Client connection 1685083356915_172.24.0.1_40512 disconnect, remove instances and subscribers
+
+2023-05-26 14:43:04,894 INFO Client connection 1685083361254_172.24.0.1_40518 disconnect, remove instances and subscribers
+
+2023-05-26 14:44:06,440 INFO Client connection 1685083446428_172.24.0.1_52426 connect
+
+2023-05-26 14:44:07,890 INFO Client connection 1685083446428_172.24.0.1_52426 disconnect, remove instances and subscribers
+
+2023-05-26 14:44:08,403 INFO Client connection 1685083440877_172.24.0.1_40100 disconnect, remove instances and subscribers
+
+2023-05-26 14:44:08,405 INFO Client connection 1685083446110_172.24.0.1_52412 disconnect, remove instances and subscribers
+
+2023-05-26 14:44:20,353 INFO Client connection 1685083460344_172.24.0.1_37780 connect
+
+2023-05-26 14:44:21,371 INFO Client connection 1685083460344_172.24.0.1_37780 disconnect, remove instances and subscribers
+
+2023-05-26 14:44:21,869 INFO Client connection 1685083457404_172.24.0.1_37752 disconnect, remove instances and subscribers
+
+2023-05-26 14:44:21,871 INFO Client connection 1685083460081_172.24.0.1_37766 disconnect, remove instances and subscribers
+
+2023-05-26 14:44:51,064 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@RegisterCenter] services are automatically cleaned
+
+2023-05-26 14:45:13,855 INFO Client connection 1685083513842_172.24.0.1_56496 connect
+
+2023-05-26 14:45:15,172 INFO Client connection 1685083513842_172.24.0.1_56496 disconnect, remove instances and subscribers
+
+2023-05-26 14:45:15,668 INFO Client connection 1685083508231_172.24.0.1_49064 disconnect, remove instances and subscribers
+
+2023-05-26 14:45:15,670 INFO Client connection 1685083513566_172.24.0.1_56490 disconnect, remove instances and subscribers
+
+2023-05-26 14:57:58,522 INFO Client connection 1685084278513_172.24.0.1_36740 connect
+
+2023-05-26 14:57:58,664 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=0}, 1685084278513_172.24.0.1_36740
+
+2023-05-26 14:58:12,416 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=1}, 1685084278513_172.24.0.1_36740
+
+2023-05-26 14:58:12,760 INFO Client connection 1685084278513_172.24.0.1_36740 disconnect, remove instances and subscribers
+
+2023-05-26 14:58:13,258 INFO Client connection 1685084274382_172.24.0.1_36726 disconnect, remove instances and subscribers
+
+2023-05-26 14:58:13,260 INFO Client connection 1685084278235_172.24.0.1_36730 disconnect, remove instances and subscribers
+
+2023-05-26 14:59:51,064 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@RegisterCenter] services are automatically cleaned
+
+2023-05-26 14:59:57,376 INFO Client connection 1685084397369_172.24.0.1_51674 connect
+
+2023-05-26 14:59:58,733 INFO Client connection 1685084397369_172.24.0.1_51674 disconnect, remove instances and subscribers
+
+2023-05-26 14:59:59,231 INFO Client connection 1685084392001_172.24.0.1_51666 disconnect, remove instances and subscribers
+
+2023-05-26 14:59:59,234 INFO Client connection 1685084397098_172.24.0.1_51670 disconnect, remove instances and subscribers
+
+2023-05-26 15:04:15,811 INFO Client connection 1685084655804_172.24.0.1_55220 connect
+
+2023-05-26 15:04:17,175 INFO Client connection 1685084655804_172.24.0.1_55220 disconnect, remove instances and subscribers
+
+2023-05-26 15:04:17,672 INFO Client connection 1685084650330_172.24.0.1_59710 disconnect, remove instances and subscribers
+
+2023-05-26 15:04:17,675 INFO Client connection 1685084655550_172.24.0.1_55216 disconnect, remove instances and subscribers
+
+2023-05-26 15:05:29,734 INFO Client connection 1685084729726_172.24.0.1_42234 connect
+
+2023-05-26 15:05:31,162 INFO Client connection 1685084729726_172.24.0.1_42234 disconnect, remove instances and subscribers
+
+2023-05-26 15:05:31,667 INFO Client connection 1685084724248_172.24.0.1_42214 disconnect, remove instances and subscribers
+
+2023-05-26 15:05:31,670 INFO Client connection 1685084729456_172.24.0.1_42222 disconnect, remove instances and subscribers
+
+2023-05-26 15:10:35,813 INFO Client connection 1685085035806_172.24.0.1_45918 connect
+
+2023-05-26 15:10:37,215 INFO Client connection 1685085035806_172.24.0.1_45918 disconnect, remove instances and subscribers
+
+2023-05-26 15:10:37,725 INFO Client connection 1685085030463_172.24.0.1_38858 disconnect, remove instances and subscribers
+
+2023-05-26 15:10:37,728 INFO Client connection 1685085035511_172.24.0.1_45912 disconnect, remove instances and subscribers
+
+2023-05-26 15:13:25,976 INFO Client connection 1685085205969_172.24.0.1_58316 connect
+
+2023-05-26 15:13:27,335 INFO Client connection 1685085205969_172.24.0.1_58316 disconnect, remove instances and subscribers
+
+2023-05-26 15:13:27,837 INFO Client connection 1685085200446_172.24.0.1_45730 disconnect, remove instances and subscribers
+
+2023-05-26 15:13:27,839 INFO Client connection 1685085205692_172.24.0.1_58306 disconnect, remove instances and subscribers
+
+2023-05-26 15:17:29,341 INFO Client connection 1685085449333_172.24.0.1_56786 connect
+
+2023-05-26 15:17:30,701 INFO Client connection 1685085449333_172.24.0.1_56786 disconnect, remove instances and subscribers
+
+2023-05-26 15:17:31,197 INFO Client connection 1685085443799_172.24.0.1_56778 disconnect, remove instances and subscribers
+
+2023-05-26 15:17:31,198 INFO Client connection 1685085449040_172.24.0.1_56784 disconnect, remove instances and subscribers
+
+2023-05-26 15:17:58,873 INFO Client connection 1685085478867_172.24.0.1_55890 connect
+
+2023-05-26 15:17:59,014 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=0}, 1685085478867_172.24.0.1_55890
+
+2023-05-26 15:18:05,234 INFO Client connection 1685085473803_172.24.0.1_55874 disconnect, remove instances and subscribers
+
+2023-05-26 15:18:05,236 INFO Client connection 1685085478616_172.24.0.1_55886 disconnect, remove instances and subscribers
+
+2023-05-26 15:18:05,238 INFO Client connection 1685085478867_172.24.0.1_55890 disconnect, remove instances and subscribers
+
+2023-05-26 15:19:51,064 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@RegisterCenter] services are automatically cleaned
+
+2023-05-26 15:24:31,159 INFO Client connection 1685085871150_172.24.0.1_59634 connect
+
+2023-05-26 15:24:32,509 INFO Client connection 1685085871150_172.24.0.1_59634 disconnect, remove instances and subscribers
+
+2023-05-26 15:24:33,006 INFO Client connection 1685085865619_172.24.0.1_59618 disconnect, remove instances and subscribers
+
+2023-05-26 15:24:33,008 INFO Client connection 1685085870873_172.24.0.1_59628 disconnect, remove instances and subscribers
+
+2023-05-26 15:37:37,763 INFO Client connection 1685086657756_172.24.0.1_44486 connect
+
+2023-05-26 15:37:38,278 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=0}, 1685086657756_172.24.0.1_44486
+
+2023-05-26 15:38:05,308 INFO Client connection 1685086652885_172.24.0.1_44464 disconnect, remove instances and subscribers
+
+2023-05-26 15:38:05,311 INFO Client connection 1685086657480_172.24.0.1_44476 disconnect, remove instances and subscribers
+
+2023-05-26 15:38:05,313 INFO Client connection 1685086657756_172.24.0.1_44486 disconnect, remove instances and subscribers
+
+2023-05-26 15:39:51,063 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@MessageCenter] services are automatically cleaned
+
+2023-05-26 15:45:27,033 INFO Client connection 1685087127020_172.24.0.1_33220 connect
+
+2023-05-26 15:45:28,334 INFO Client connection 1685087127020_172.24.0.1_33220 disconnect, remove instances and subscribers
+
+2023-05-26 15:45:28,834 INFO Client connection 1685087126749_172.24.0.1_33216 disconnect, remove instances and subscribers
+
+2023-05-26 15:45:28,837 INFO Client connection 1685087121862_172.24.0.1_42428 disconnect, remove instances and subscribers
+
+2023-05-26 15:45:41,774 INFO Client connection 1685087141766_172.24.0.1_56668 connect
+
+2023-05-26 15:45:42,792 INFO Client connection 1685087141766_172.24.0.1_56668 disconnect, remove instances and subscribers
+
+2023-05-26 15:45:43,289 INFO Client connection 1685087138913_172.24.0.1_56642 disconnect, remove instances and subscribers
+
+2023-05-26 15:45:43,291 INFO Client connection 1685087141527_172.24.0.1_56656 disconnect, remove instances and subscribers
+
+2023-05-26 15:46:51,415 INFO Client connection 1685087211407_172.24.0.1_41216 connect
+
+2023-05-26 15:46:53,214 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GateWay', ephemeral=true, revision=0}, 1685087211407_172.24.0.1_41216
+
+2023-05-26 15:47:01,547 INFO Client connection 1685087208032_172.24.0.1_41200 disconnect, remove instances and subscribers
+
+2023-05-26 15:47:01,548 INFO Client connection 1685087211155_172.24.0.1_41206 disconnect, remove instances and subscribers
+
+2023-05-26 15:47:01,551 INFO Client connection 1685087211407_172.24.0.1_41216 disconnect, remove instances and subscribers
+
+2023-05-26 15:48:51,064 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@GateWay] services are automatically cleaned
+
+2023-05-26 22:37:18,413 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-05-26 22:37:18,491 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-05-26 22:37:19,786 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2023-05-26 22:37:19,786 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)

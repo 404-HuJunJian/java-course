@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+  mysql:
+    container_name: hardware_mysql
+    extends:
+      file: ./mysql.yaml
+      service: mysql
+  nacos:
+    container_name: hardware_nacos
+    extends:
+      file: ./nacos.yaml
+      service: nacos
+  sentinel:
+    container_name: hardware_sentinel
+    extends:
+      file: ./sentinel.yaml
+      service: sentinel
+  redis:
+    container_name: hardware_redis
+    extends:
+      file: ./redis.yaml
+      service: redis
+  emqx:
+    container_name: hardware_emqx
+    extends:
+      file: ./emqx.yaml
+      service: emqx
+

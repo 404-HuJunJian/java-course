@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: UploadCenter
+  profiles:
+    active: dev
+
+

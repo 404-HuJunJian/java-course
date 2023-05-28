@@ -1,0 +1,18 @@
+version: '2'
+services:
+  mysql:
+    image: mysql:8.0.32
+    # 外部位置：内部位置
+    volumes:
+      - ./data/mysql/conf:/etc/mysql/conf.d
+      - ./data/mysql/data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=17867967952
+      - LANG=C.UTF-8
+      - TZ=Asia/Shanghai
+    # 容器端口
+    # 外部端口：内部端口
+    ports:
+      - "3308:3306"
+    # 执行命令 会覆盖dockerfile中的命令
+    command: mysqld  --skip-ssl --character_set_server=utf8mb4 --sql_mode=""

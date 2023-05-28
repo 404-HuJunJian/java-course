@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "com.parsley.upload",
+      "type": "com.parsley.config.UploadProperties",
+      "sourceType": "com.parsley.config.UploadProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.parsley.upload.path",
+      "type": "java.lang.String",
+      "sourceType": "com.parsley.config.UploadProperties",
+      "defaultValue": "uploadFiles\/"
+    }
+  ],
+  "hints": []
+}

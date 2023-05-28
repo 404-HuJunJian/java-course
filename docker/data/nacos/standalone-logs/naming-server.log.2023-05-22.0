@@ -1,0 +1,192 @@
+2023-05-22 15:42:54,868 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-05-22 15:42:54,868 WARN Using naming.distro config to replace core.distro config
+
+2023-05-22 15:42:54,983 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-05-22 15:42:54,984 INFO listen for service meta change
+
+2023-05-22 15:42:56,502 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-05-22 15:42:56,502 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-05-22 15:42:56,502 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-05-22 15:42:56,502 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-05-22 15:42:57,322 INFO Load instance extension handler []
+
+2023-05-22 15:43:21,643 INFO Client connection 1684741401629_172.24.0.1_56658 connect
+
+2023-05-22 15:43:21,644 INFO Client connection 1684741401629_172.24.0.1_56670 connect
+
+2023-05-22 15:43:21,661 INFO Client connection 1684741401650_172.24.0.1_56674 connect
+
+2023-05-22 15:43:21,859 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='UploadCenter', ephemeral=true, revision=0}, 1684741401629_172.24.0.1_56670
+
+2023-05-22 15:43:21,859 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='WeatherServer', ephemeral=true, revision=0}, 1684741401629_172.24.0.1_56658
+
+2023-05-22 15:43:21,859 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GPTServer', ephemeral=true, revision=0}, 1684741401650_172.24.0.1_56674
+
+2023-05-22 15:43:23,318 INFO Client connection 1684741403310_172.24.0.1_56694 connect
+
+2023-05-22 15:43:23,813 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=0}, 1684741403310_172.24.0.1_56694
+
+2023-05-22 15:43:25,659 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='UploadCenter', ephemeral=true, revision=1}, 1684741401629_172.24.0.1_56670
+
+2023-05-22 15:43:26,333 INFO Client connection 1684741401629_172.24.0.1_56670 disconnect, remove instances and subscribers
+
+2023-05-22 15:43:26,828 INFO Client connection 1684741401280_172.24.0.1_56624 disconnect, remove instances and subscribers
+
+2023-05-22 15:43:26,830 INFO Client connection 1684741397993_172.24.0.1_56584 disconnect, remove instances and subscribers
+
+2023-05-22 15:43:45,980 INFO Client connection 1684741425973_172.24.0.1_53996 connect
+
+2023-05-22 15:43:47,875 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GateWay', ephemeral=true, revision=0}, 1684741425973_172.24.0.1_53996
+
+2023-05-22 15:44:18,829 INFO Client connection 1684741458822_172.24.0.1_34874 connect
+
+2023-05-22 15:44:18,976 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=0}, 1684741458822_172.24.0.1_34874
+
+2023-05-22 15:44:27,127 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@UploadCenter] services are automatically cleaned
+
+2023-05-22 15:56:18,582 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GateWay', ephemeral=true, revision=1}, 1684741425973_172.24.0.1_53996
+
+2023-05-22 15:56:18,916 INFO Client connection 1684741425973_172.24.0.1_53996 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:19,015 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=1}, 1684741458822_172.24.0.1_34874
+
+2023-05-22 15:56:19,128 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='WeatherServer', ephemeral=true, revision=1}, 1684741401629_172.24.0.1_56658
+
+2023-05-22 15:56:19,157 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GPTServer', ephemeral=true, revision=1}, 1684741401650_172.24.0.1_56674
+
+2023-05-22 15:56:19,352 INFO Client connection 1684741458822_172.24.0.1_34874 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:19,464 INFO Client connection 1684741401629_172.24.0.1_56658 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:19,494 INFO Client connection 1684741401650_172.24.0.1_56674 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:19,864 INFO Client connection 1684741458521_172.24.0.1_34860 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:19,865 INFO Client connection 1684741453568_172.24.0.1_40740 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:19,968 INFO Client connection 1684741398012_172.24.0.1_56602 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:19,970 INFO Client connection 1684741401302_172.24.0.1_56630 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:19,997 INFO Client connection 1684741401313_172.24.0.1_56646 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:19,999 INFO Client connection 1684741398213_172.24.0.1_56612 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:21,485 INFO Client connection 1684741422542_172.24.0.1_53974 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:21,486 INFO Client connection 1684741425680_172.24.0.1_53980 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:24,166 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=1}, 1684741403310_172.24.0.1_56694
+
+2023-05-22 15:56:24,507 INFO Client connection 1684741403310_172.24.0.1_56694 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:25,047 INFO Client connection 1684741398005_172.24.0.1_56586 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:25,048 INFO Client connection 1684741402960_172.24.0.1_56678 disconnect, remove instances and subscribers
+
+2023-05-22 15:56:46,438 INFO Client connection 1684742206431_172.24.0.1_59970 connect
+
+2023-05-22 15:56:46,583 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=2}, 1684742206431_172.24.0.1_59970
+
+2023-05-22 15:56:46,763 INFO Client connection 1684742206758_172.24.0.1_59996 connect
+
+2023-05-22 15:56:48,228 INFO Client connection 1684742208222_172.24.0.1_56544 connect
+
+2023-05-22 15:56:48,375 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='WeatherServer', ephemeral=true, revision=2}, 1684742208222_172.24.0.1_56544
+
+2023-05-22 15:56:49,131 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GateWay', ephemeral=true, revision=2}, 1684742206758_172.24.0.1_59996
+
+2023-05-22 15:56:50,185 INFO Client connection 1684742210176_172.24.0.1_56582 connect
+
+2023-05-22 15:56:50,330 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GPTServer', ephemeral=true, revision=2}, 1684742210176_172.24.0.1_56582
+
+2023-05-22 15:56:54,174 INFO Client connection 1684742214169_172.24.0.1_56604 connect
+
+2023-05-22 15:56:54,668 INFO Client change for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=2}, 1684742214169_172.24.0.1_56604
+
+2023-05-22 16:01:39,462 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GateWay', ephemeral=true, revision=3}, 1684742206758_172.24.0.1_59996
+
+2023-05-22 16:01:39,795 INFO Client connection 1684742206758_172.24.0.1_59996 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:39,924 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=3}, 1684742206431_172.24.0.1_59970
+
+2023-05-22 16:01:39,955 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='WeatherServer', ephemeral=true, revision=3}, 1684742208222_172.24.0.1_56544
+
+2023-05-22 16:01:39,991 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GPTServer', ephemeral=true, revision=3}, 1684742210176_172.24.0.1_56582
+
+2023-05-22 16:01:40,260 INFO Client connection 1684742206431_172.24.0.1_59970 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:40,291 INFO Client connection 1684742208222_172.24.0.1_56544 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:40,322 INFO Client connection 1684742210176_172.24.0.1_56582 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:40,765 INFO Client connection 1684742206131_172.24.0.1_59954 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:40,766 INFO Client connection 1684742200160_172.24.0.1_59924 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:40,790 INFO Client connection 1684742207885_172.24.0.1_56534 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:40,792 INFO Client connection 1684742204852_172.24.0.1_59948 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:40,824 INFO Client connection 1684742207039_172.24.0.1_60006 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:40,826 INFO Client connection 1684742209827_172.24.0.1_56568 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:42,459 INFO Client connection 1684742202333_172.24.0.1_59934 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:42,461 INFO Client connection 1684742206483_172.24.0.1_59982 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:45,031 INFO Client remove for service Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=3}, 1684742214169_172.24.0.1_56604
+
+2023-05-22 16:01:45,367 INFO Client connection 1684742214169_172.24.0.1_56604 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:45,987 INFO Client connection 1684742209221_172.24.0.1_56554 disconnect, remove instances and subscribers
+
+2023-05-22 16:01:45,990 INFO Client connection 1684742213830_172.24.0.1_56598 disconnect, remove instances and subscribers
+
+2023-05-22 16:03:27,130 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@GateWay] services are automatically cleaned
+
+2023-05-22 16:03:27,130 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@GPTServer] services are automatically cleaned
+
+2023-05-22 16:03:27,131 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@MessageCenter] services are automatically cleaned
+
+2023-05-22 16:03:27,131 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@WeatherServer] services are automatically cleaned
+
+2023-05-22 16:03:27,131 WARN namespace : 45c96965-c8f8-4c18-a721-7fee5be0dbec, [DEFAULT_GROUP@@RegisterCenter] services are automatically cleaned
+
+2023-05-22 18:59:20,700 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-05-22 18:59:20,717 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-05-22 18:59:21,383 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2023-05-22 18:59:21,383 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)

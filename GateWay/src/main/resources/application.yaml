@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: GateWay
+  profiles:
+    active: dev
+
+
+
+
+

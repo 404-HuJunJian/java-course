@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "mqtt",
+      "type": "com.parsley.config.MqttProperties",
+      "sourceType": "com.parsley.config.MqttProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mqtt.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.parsley.config.MqttProperties"
+    },
+    {
+      "name": "mqtt.password",
+      "type": "java.lang.String",
+      "sourceType": "com.parsley.config.MqttProperties"
+    },
+    {
+      "name": "mqtt.url",
+      "type": "java.lang.String",
+      "sourceType": "com.parsley.config.MqttProperties"
+    },
+    {
+      "name": "mqtt.username",
+      "type": "java.lang.String",
+      "sourceType": "com.parsley.config.MqttProperties"
+    }
+  ],
+  "hints": []
+}

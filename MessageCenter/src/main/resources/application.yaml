@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: MessageCenter
+  profiles:
+    active: dev
+
+

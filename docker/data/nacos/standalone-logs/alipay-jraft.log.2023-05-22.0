@@ -1,0 +1,230 @@
+2023-05-22 15:42:56,588 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2023-05-22 15:42:56,668 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2023-05-22 15:42:56,794 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeDescribeSignalHandler] loading.
+
+2023-05-22 15:42:56,795 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeMetricsSignalHandler] loading.
+
+2023-05-22 15:42:56,796 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.ThreadPoolMetricsSignalHandler] loading.
+
+2023-05-22 15:42:56,799 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2023-05-22 15:42:56,806 INFO The number of active nodes increment to 1.
+
+2023-05-22 15:42:56,987 INFO Starts FSMCaller successfully.
+
+2023-05-22 15:42:56,998 INFO Loading snapshot, meta=last_included_index: 8
+last_included_term: 8
+peers: "0747986a3eb1:7848"
+.
+
+2023-05-22 15:42:57,070 INFO Node <naming_persistent_service_v2/0747986a3eb1:7848> onSnapshotLoadDone, last_included_index: 8
+last_included_term: 8
+peers: "0747986a3eb1:7848"
+
+
+2023-05-22 15:42:57,071 INFO Node <naming_persistent_service_v2/0747986a3eb1:7848> target priority value has changed from: 0, to: -1.
+
+2023-05-22 15:42:57,089 INFO Node <naming_persistent_service_v2/0747986a3eb1:7848> init, term=8, lastLogId=LogId [index=8, term=8], conf=0747986a3eb1:7848, oldConf=.
+
+2023-05-22 15:42:57,091 INFO Node <naming_persistent_service_v2/0747986a3eb1:7848> start vote and grant vote self, term=8.
+
+2023-05-22 15:42:57,105 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=9, votedFor=0747986a3eb1:7848, cost time=11 ms
+
+2023-05-22 15:42:57,106 INFO Node <naming_persistent_service_v2/0747986a3eb1:7848> become leader of group, term=9, conf=0747986a3eb1:7848, oldConf=.
+
+2023-05-22 15:42:57,109 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2023-05-22 15:42:57,111 WARN RPC server is not started in RaftGroupService.
+
+2023-05-22 15:42:57,112 INFO Start the RaftGroupService successfully.
+
+2023-05-22 15:42:57,120 INFO onLeaderStart: term=9.
+
+2023-05-22 15:42:57,128 INFO The number of active nodes increment to 2.
+
+2023-05-22 15:42:57,167 INFO Starts FSMCaller successfully.
+
+2023-05-22 15:42:57,168 INFO Loading snapshot, meta=last_included_index: 8
+last_included_term: 8
+peers: "0747986a3eb1:7848"
+.
+
+2023-05-22 15:42:57,170 INFO Node <naming_instance_metadata/0747986a3eb1:7848> onSnapshotLoadDone, last_included_index: 8
+last_included_term: 8
+peers: "0747986a3eb1:7848"
+
+
+2023-05-22 15:42:57,171 INFO Node <naming_instance_metadata/0747986a3eb1:7848> target priority value has changed from: 0, to: -1.
+
+2023-05-22 15:42:57,172 INFO Node <naming_instance_metadata/0747986a3eb1:7848> init, term=8, lastLogId=LogId [index=8, term=8], conf=0747986a3eb1:7848, oldConf=.
+
+2023-05-22 15:42:57,173 INFO Node <naming_instance_metadata/0747986a3eb1:7848> start vote and grant vote self, term=8.
+
+2023-05-22 15:42:57,178 WARN Channel in TRANSIENT_FAILURE state: 0747986a3eb1:7848.
+
+2023-05-22 15:42:57,178 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=9, votedFor=0747986a3eb1:7848, cost time=5 ms
+
+2023-05-22 15:42:57,178 WARN Channel in SHUTDOWN state: 0747986a3eb1:7848.
+
+2023-05-22 15:42:57,179 INFO Node <naming_instance_metadata/0747986a3eb1:7848> become leader of group, term=9, conf=0747986a3eb1:7848, oldConf=.
+
+2023-05-22 15:42:57,180 WARN RPC server is not started in RaftGroupService.
+
+2023-05-22 15:42:57,180 INFO Start the RaftGroupService successfully.
+
+2023-05-22 15:42:57,182 INFO onLeaderStart: term=9.
+
+2023-05-22 15:42:57,184 INFO The number of active nodes increment to 3.
+
+2023-05-22 15:42:57,223 INFO Starts FSMCaller successfully.
+
+2023-05-22 15:42:57,224 INFO Loading snapshot, meta=last_included_index: 8
+last_included_term: 8
+peers: "0747986a3eb1:7848"
+.
+
+2023-05-22 15:42:57,226 INFO Node <naming_service_metadata/0747986a3eb1:7848> onSnapshotLoadDone, last_included_index: 8
+last_included_term: 8
+peers: "0747986a3eb1:7848"
+
+
+2023-05-22 15:42:57,226 INFO Node <naming_service_metadata/0747986a3eb1:7848> target priority value has changed from: 0, to: -1.
+
+2023-05-22 15:42:57,228 INFO Node <naming_service_metadata/0747986a3eb1:7848> init, term=8, lastLogId=LogId [index=8, term=8], conf=0747986a3eb1:7848, oldConf=.
+
+2023-05-22 15:42:57,228 INFO Node <naming_service_metadata/0747986a3eb1:7848> start vote and grant vote self, term=8.
+
+2023-05-22 15:42:57,233 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=9, votedFor=0747986a3eb1:7848, cost time=4 ms
+
+2023-05-22 15:42:57,233 INFO Node <naming_service_metadata/0747986a3eb1:7848> become leader of group, term=9, conf=0747986a3eb1:7848, oldConf=.
+
+2023-05-22 15:42:57,234 WARN RPC server is not started in RaftGroupService.
+
+2023-05-22 15:42:57,235 INFO Start the RaftGroupService successfully.
+
+2023-05-22 15:42:57,236 INFO onLeaderStart: term=9.
+
+2023-05-22 15:59:29,986 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_9.
+
+2023-05-22 15:59:29,988 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_9.
+
+2023-05-22 15:59:29,989 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_8.
+
+2023-05-22 15:59:36,125 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_9.
+
+2023-05-22 15:59:36,125 INFO Renaming /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_9.
+
+2023-05-22 15:59:36,126 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_8.
+
+2023-05-22 16:10:47,421 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_9.
+
+2023-05-22 16:10:47,423 INFO Renaming /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_9.
+
+2023-05-22 16:10:47,424 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_8.
+
+2023-05-22 18:59:20,759 INFO Node <naming_service_metadata/0747986a3eb1:7848> shutdown, currTerm=9 state=STATE_LEADER.
+
+2023-05-22 18:59:20,763 INFO Fail to find the next candidate.
+
+2023-05-22 18:59:20,764 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2023-05-22 18:59:20,778 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=9, votedFor=0747986a3eb1:7848, cost time=11 ms
+
+2023-05-22 18:59:20,779 INFO Shutting down FSMCaller...
+
+2023-05-22 18:59:20,780 INFO onShutdown.
+
+2023-05-22 18:59:20,782 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@495cce9f[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2023-05-22 18:59:20,784 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@7585ad4e[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2023-05-22 18:59:20,784 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,785 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,785 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,785 INFO The number of active nodes decrement to 2.
+
+2023-05-22 18:59:20,787 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,789 INFO Node <naming_service_metadata/0747986a3eb1:7848> shutdown, currTerm=9 state=STATE_SHUTTING.
+
+2023-05-22 18:59:20,790 INFO Stop the RaftGroupService successfully.
+
+2023-05-22 18:59:20,790 INFO Node <naming_instance_metadata/0747986a3eb1:7848> shutdown, currTerm=9 state=STATE_LEADER.
+
+2023-05-22 18:59:20,791 INFO Fail to find the next candidate.
+
+2023-05-22 18:59:20,792 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2023-05-22 18:59:20,799 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=9, votedFor=0747986a3eb1:7848, cost time=7 ms
+
+2023-05-22 18:59:20,800 INFO Shutting down FSMCaller...
+
+2023-05-22 18:59:20,800 INFO onShutdown.
+
+2023-05-22 18:59:20,802 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@4b5c1904[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2023-05-22 18:59:20,803 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@34f3de4f[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2023-05-22 18:59:20,804 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,804 INFO The number of active nodes decrement to 1.
+
+2023-05-22 18:59:20,804 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,805 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,806 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,807 INFO Node <naming_instance_metadata/0747986a3eb1:7848> shutdown, currTerm=9 state=STATE_SHUTTING.
+
+2023-05-22 18:59:20,808 INFO Stop the RaftGroupService successfully.
+
+2023-05-22 18:59:20,808 INFO Node <naming_persistent_service_v2/0747986a3eb1:7848> shutdown, currTerm=9 state=STATE_LEADER.
+
+2023-05-22 18:59:20,809 INFO Fail to find the next candidate.
+
+2023-05-22 18:59:20,810 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2023-05-22 18:59:20,816 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=9, votedFor=0747986a3eb1:7848, cost time=6 ms
+
+2023-05-22 18:59:20,817 INFO Shutting down FSMCaller...
+
+2023-05-22 18:59:20,817 INFO onShutdown.
+
+2023-05-22 18:59:20,819 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@50face57[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2023-05-22 18:59:20,820 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@7b457975[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2023-05-22 18:59:20,820 INFO The number of active nodes decrement to 0.
+
+2023-05-22 18:59:20,825 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@3d6bc856[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2023-05-22 18:59:20,827 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,829 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@398e738c[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2023-05-22 18:59:20,829 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,832 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@5f036877[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 14139].
+
+2023-05-22 18:59:20,833 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,836 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@7e736cce[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 18].
+
+2023-05-22 18:59:20,837 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/0747986a3eb1:7848>'}.
+
+2023-05-22 18:59:20,838 INFO Node <naming_persistent_service_v2/0747986a3eb1:7848> shutdown, currTerm=9 state=STATE_SHUTTING.
+
+2023-05-22 18:59:20,839 INFO Stop the RaftGroupService successfully.
+
+2023-05-22 18:59:20,841 INFO Shutdown managed channel: 0747986a3eb1:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=10, target=0747986a3eb1:7848}}.
+
+2023-05-22 18:59:20,855 INFO Connection disconnected: /172.24.0.5:33408
+
+2023-05-22 18:59:20,860 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@5b56e124[Shutting down, pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 10596].
+

@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        username: nacos
+        password: nacos
+        namespace: 45c96965-c8f8-4c18-a721-7fee5be0dbec  # 这里只能写命名空间的id要不然就不写默认public

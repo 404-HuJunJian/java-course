@@ -1,0 +1,4 @@
+2023-05-20 20:37:38,621 INFO [PUSH] Task merge for Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=1}
+
+2023-05-20 20:37:39,138 INFO [PUSH-SUCC] 26ms, all delay time 553ms, SLA 517ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=1}, DataSize=1, target=192.168.1.101
+

@@ -1,0 +1,56 @@
+2023-05-21 16:45:50,394 INFO [PUSH-SUCC] 22ms, all delay time 603ms for subscriber 192.168.1.103, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GateWay', ephemeral=true, revision=0}, DataSize=0
+
+2023-05-21 16:46:00,266 INFO [PUSH] Task merge for Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=1}
+
+2023-05-21 16:46:00,804 INFO [PUSH-SUCC] 19ms, all delay time 574ms, SLA 538ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=1}, DataSize=1, target=192.168.1.103
+
+2023-05-21 16:46:13,047 INFO [PUSH] Task merge for Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=1}
+
+2023-05-21 16:46:13,217 INFO [PUSH-SUCC] 16ms, all delay time 550ms, SLA 170ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=1}, DataSize=1, target=192.168.1.103
+
+2023-05-21 16:46:58,185 INFO [PUSH-SUCC] 18ms, all delay time 593ms for subscriber 192.168.1.103, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GateWay', ephemeral=true, revision=0}, DataSize=0
+
+2023-05-21 16:46:59,979 INFO [PUSH-SUCC] 9ms, all delay time 556ms, SLA 556ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GateWay', ephemeral=true, revision=1}, DataSize=1, target=192.168.1.103
+
+2023-05-21 16:49:53,847 INFO [PUSH-SUCC] 8ms, all delay time 562ms for subscriber 192.168.1.103, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=1}, DataSize=1
+
+2023-05-21 16:50:02,856 INFO [PUSH-SUCC] 4ms, all delay time 556ms for subscriber 192.168.1.103, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=1}, DataSize=1
+
+2023-05-21 16:52:48,898 INFO [PUSH-SUCC] 6ms, all delay time 540ms, SLA 540ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=2}, DataSize=0, target=192.168.1.103
+
+2023-05-21 16:53:00,509 INFO [PUSH] Task merge for Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=3}
+
+2023-05-21 16:53:00,713 INFO [PUSH-SUCC] 5ms, all delay time 589ms, SLA 204ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=3}, DataSize=1, target=192.168.1.103
+
+2023-05-21 16:53:00,730 INFO [PUSH-SUCC] 22ms, all delay time 606ms, SLA 221ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=3}, DataSize=1, target=192.168.1.103
+
+2023-05-21 16:54:03,508 INFO [PUSH-SUCC] 11ms, all delay time 607ms for subscriber 192.168.1.103, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='WeatherServer', ephemeral=true, revision=0}, DataSize=0
+
+2023-05-21 17:38:29,178 INFO [PUSH] Task merge for Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=3}
+
+2023-05-21 17:38:29,692 INFO [PUSH-SUCC] 19ms, all delay time 540ms, SLA 514ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=3}, DataSize=1, target=192.168.1.103
+
+2023-05-21 17:38:29,995 INFO [PUSH-SUCC] 16ms, all delay time 565ms for subscriber 192.168.1.103, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GateWay', ephemeral=true, revision=2}, DataSize=0
+
+2023-05-21 17:38:31,891 INFO [PUSH-SUCC] 16ms, all delay time 531ms, SLA 531ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GateWay', ephemeral=true, revision=3}, DataSize=1, target=192.168.1.103
+
+2023-05-21 17:38:32,923 INFO [PUSH] Task merge for Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=5}
+
+2023-05-21 17:38:33,092 INFO [PUSH-SUCC] 15ms, all delay time 555ms, SLA 169ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='MessageCenter', ephemeral=true, revision=5}, DataSize=1, target=192.168.1.103
+
+2023-05-21 17:38:47,203 INFO [PUSH-SUCC] 8ms, all delay time 582ms for subscriber 192.168.1.103, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='RegisterCenter', ephemeral=true, revision=3}, DataSize=1
+
+2023-05-21 18:22:17,077 INFO [PUSH] Task merge for Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GPTServer', ephemeral=true, revision=1}
+
+2023-05-21 18:22:17,597 INFO [PUSH-SUCC] 23ms, all delay time 555ms, SLA 520ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GPTServer', ephemeral=true, revision=1}, DataSize=1, target=192.168.1.103
+
+2023-05-21 18:22:29,694 INFO [PUSH-SUCC] 6ms, all delay time 530ms for subscriber 192.168.1.103, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='GPTServer', ephemeral=true, revision=1}, DataSize=1
+
+2023-05-21 18:28:31,842 INFO [PUSH] Task merge for Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='UploadCenter', ephemeral=true, revision=1}
+
+2023-05-21 18:28:32,384 INFO [PUSH-SUCC] 17ms, all delay time 568ms, SLA 542ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='UploadCenter', ephemeral=true, revision=1}, DataSize=1, target=192.168.1.103
+
+2023-05-21 18:28:48,777 INFO [PUSH] Task merge for Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='WeatherServer', ephemeral=true, revision=1}
+
+2023-05-21 18:28:49,303 INFO [PUSH-SUCC] 17ms, all delay time 550ms, SLA 526ms, Service{namespace='45c96965-c8f8-4c18-a721-7fee5be0dbec', group='DEFAULT_GROUP', name='WeatherServer', ephemeral=true, revision=1}, DataSize=1, target=192.168.1.103
+
